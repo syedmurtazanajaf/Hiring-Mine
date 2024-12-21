@@ -1,0 +1,387 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 186px;
+    height: 36px;
+}
+
+.container1 input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 500px;
+    height: 40px;
+    padding: 14px;
+    border: 1px solid lightgray;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.btn-job {
+    background-color: #6851ff;
+    width: 130px;
+    height: 44px;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: transparent;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 > h1{
+    color: transparent;
+    background-image: linear-gradient(to right, #5751dc, #5d7be7, #64a4f1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    padding-top: 25px;
+}
+
+.container1 > h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+/* Container1 end */
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* background-image: url(./image/art\ work-df4f7a46.png);
+    background-size: cover;
+    padding-bottom: 300px;
+    background-position: center; */
+    
+}
+
+.container2 > h1{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #6851ff;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.minibtn button{
+    color: #6851ff;
+    border: transparent;
+    border: 1px solid #6851ff;
+    padding: 7px 10px;
+    margin: 6px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    
+}
+
+/* container2 end */
+
+.container3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.container3 img{
+    width: 100%;
+    height: 400px;
+}
+
+/* container3 end */
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+}
+
+.container4 > h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.container4 span{
+    color: #6851ff;
+}
+
+/* container4 end */
+
+
+.container5{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.con5{
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px ;
+    border-radius: 25px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 40px #bdb2ff3d;
+
+
+
+}
+.con5 > h6{
+    color: #6851ff;
+    padding-bottom: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+
+/* container5 end */
+
+.container6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container6 h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.container6 span{
+    color: #6851ff;
+}
+
+/* container6 end */
+
+.container7{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.container7 img{
+    width: 100%;
+}
+
+/* container7 end */
+
+.container8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.container8 h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.container8 span{
+    color: #6851ff;
+}
+
+/* container8 end */
+
+.container9{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+/* container9 end */
+
+.container10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container10 h1{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+
+.container10 span{
+    color: #6851ff;
+}
+
+/* container10 end */
+
+.container11{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.latestjob{
+    border: 1px solid white;
+    width: 420px;
+    height: 240px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.latestjob img{
+    width: 44px;
+    height: 26px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.view{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.hour{
+    position: absolute;
+    bottom: 20px;
+}
+
+.latestjob h6{
+    color: #6851ff;
+}
+
+/* container11 end */
+
+
+.container12{
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container12 h1{
+    font-weight: bolder;
+}
+
+.container12 img{
+    width: 450px;
+    height: 250px;
+}
+
+
+.help{
+    color: #6851ff;
+}
+
+
+/* container12 end */
+
+.container13{
+    background-color: #6851ff;
+    width: 100%;
+    height: 500px;
+    padding: 100px;
+    position: relative;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container13 img{
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+.container13 h6{
+    background-color: transparent;
+
+}
+
+.container13 h4{
+    background-color: transparent;
+    padding-top: 40px;
+}
+.icon{
+    background-color: transparent;
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+
+    
+}
+
+.icon i{
+    background-color: transparent;
+    font-size: 25px;
+}
+.contact{
+    background-color: transparent;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+.contact i{
+    background-color: transparent;
+}
+
+
+.Policy{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border-top: 1px solid white;
+    margin-top: 30px;
+    padding-top: 10px;
+
+}
+.Policy h6{
+    background-color: transparent;
+
+}
+
+
